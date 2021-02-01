@@ -25,6 +25,24 @@ However, my analysis will be more valuable if I will use other methods to answer
 
 ![download](https://user-images.githubusercontent.com/68250383/106407954-43369300-640b-11eb-8371-7158a1b80687.png)
 
+## Models Training
+
+The Linear Regression model may be a good option to show a dependency between price and features, however, I have decided to use Lasso and Ridge models too. Also, I will use log of target in my models training. 
+
+Therefore, to make my final conclusions more reliable, I will be comparing Linear Regression, Ridge and Lasso prediction models with original target and with log of target to find the best model based on R2 score. Then, I will use additional metrics (Mean Squared Error, Mean Absolute Error and Root Mean Square Error) to measure the errors of a chosen model.
+
+In the result of comparison of 6 models I have decided to proceed with Linear Regression with original target because this model has the highest R2 score (0.633414).
+
+## Linear Regression with Original Target
+
+In this section I compare weights to define the most important features.
+
+![download (1)](https://user-images.githubusercontent.com/68250383/106408546-affe5d00-640c-11eb-89e1-e973245eb9d0.png)
+
+
+
+
+
 
 
 
