@@ -11,9 +11,8 @@ This is a project for a real estate agency that helps homeowners sell their home
 3. Explore the data
 4. Model 
 5. Interpret
-6. Recommendations
-7. Conclusions
-8. Future work
+6. Conclusions and Recommendations
+7. Future work
 
 ## Diagonal correlation matrix
 
@@ -38,6 +37,26 @@ In the result of comparison of 6 models I have decided to proceed with Linear Re
 In this section I compare weights to define the most important features.
 
 ![download (1)](https://user-images.githubusercontent.com/68250383/106408546-affe5d00-640c-11eb-89e1-e973245eb9d0.png)
+
+grade,sqft_living and waterfront features have the greatest impact in a positive direction.
+
+## Conclusions and Recommendations
+
+1.Based on the above analysis, I can assume that building grade has the strongest relationship with a housing price. I recommend stakeholders to improve exterior and interior finish work and design, check with cities municipal office to ensure sellers building plans are up-to-date and add amenities of solid woods, bathroom fixtures and more luxurious options to increase a house value.
+
+2.Another important feature which has a strong relationship with a price is sqft living. I recommend stakeholders check if there is a possibility to increase living space,for example, by adding a bathroom and or bedroom.However, an additional bedroom does not necessarily result in a a sale price increase.
+
+3.According to the results of `weights correlation to features` it is clear that waterfront feature has a positive correlation with housing price, however, it is something that sellers can not change to increase a house value so, I recommend stakeholders to take into consideration yr_built feature before selling a house. I can assume that it may be beneficial to sellers sell a house before it gets too old, however, it is important to take into consideration different factors before selling a house.
+
+## Future Work
+
+1.Testing date feature to find out which months are the most popular for house sales.
+
+2.Work on adding more insights by using an iterative approach to multiple regression modelling to determine the most impactful features .
+
+3.Demonstrate by what exact amount the features might increase the estimated homes value.
+
+
 
 
 
