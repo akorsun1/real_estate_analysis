@@ -17,11 +17,11 @@ This is a project for a real estate agency that helps homeowners sell their home
 
 ## Diagonal correlation matrix
 
-Diagonal correlation matrix answers some important questions for my analysis, for example, "How does building grade impact sales price?" and "Which features are the most impactful in terms of pricing?".
+Diagonal correlation matrix answers an important question for my analysis : "Which features are the most impactful in terms of pricing?."
 
-According to this correlation matrix, I can assume that bulding grade impacts price significantly due to their high correlation level (0.68). Also with the help of the matrix, I can state that the next features are the most impactful in terms of pricing: sqft_living,grade, bathrooms.
+According to this correlation matrix, I can assume that bulding grade impacts price significantly due to their high correlation level (0.68). Also, I can state that the next features are the most impactful in terms of pricing: sqft_living,grade, bathrooms.
 
-However, my analysis will be more valuable if I will use other methods to answer my research questions.
+However, my analysis will be more valuable if I will use other methods to answer my research question.
 
 
 
