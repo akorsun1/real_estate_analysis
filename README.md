@@ -23,6 +23,7 @@ According to this correlation matrix, I can assume that bulding grade impacts pr
 
 However, my analysis will be more valuable if I will use other methods to answer my research question.
 
+![download](https://user-images.githubusercontent.com/68250383/106407954-43369300-640b-11eb-8371-7158a1b80687.png)
 
 
 
